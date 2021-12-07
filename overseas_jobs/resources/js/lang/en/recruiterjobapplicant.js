@@ -1,0 +1,32 @@
+export default {
+    title: "List of applicants",
+    job_title: "Job title",
+    management_number:"Management Number",
+	application_period: "Application period",
+    status: "Status",
+    search: "Search",
+    no_page: "Recommended Joblist",
+    page_display: "page display",
+    application_date: "Application date",
+    control_no: "Control number",
+    job_no: "Job number",
+    member_number: "Jobseeker Member Number",
+	fullname: "Full name",
+	display_invoice: "Show Invoice",
+	pay: "Payment",
+	chat: "Chat",
+    "columns": [
+        { "name": "job_apply_date", "label": "Date and time" },
+        { "name": "management_number", "label": "Control number" },
+        { "name": "job_number", "label": "Job number" },
+        { "name": "title", "label": "Job title" },
+        // { "name": "jobseeker_number", "label": "Jobseeker member number" },
+        // { "name": "jobseeker_name", "label": "Fullname" },
+        { "name": "jobseeker", "label": "Jobseeker" },
+        { "name": "job_apply_status", "label": "Status" },
+        { "name": "", "label": " " },
+    ],
+    "titles": [      
+        {"name":"Job title"}
+    ],
+};

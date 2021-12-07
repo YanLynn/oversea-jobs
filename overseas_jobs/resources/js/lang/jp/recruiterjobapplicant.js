@@ -1,0 +1,33 @@
+export default {
+    title: "問合わせ/応募者一覧",
+    job_title: "求人タイトル",
+    management_number:"管理番号",
+	application_period: "応募期間",
+    status: "ステータス",
+    search: "検索",
+    no_page: "検索結果表示件数 ",
+    page_display: "ページ表示数 ",
+    // application_date: "問合わせ/応募日時",
+    // control_no: "管理番号",
+    // job_no: "求人番号",
+    date :' 年 - 月 - 日',
+    // member_number: "求職者会員番号", 
+	// fullname: "氏名",
+	display_invoice: "請求書表示",
+	pay: "クレカ支払",
+	chat: "チャット",
+    "columns": [
+        { "name": "job_apply_date", "label": "問合わせ/応募日時" },
+        { "name": "management_number", "label": "管理番号" },
+        { "name": "job_number", "label": "求人番号" },
+        { "name": "title", "label": "求人タイトル" },
+        // { "name": "jobseeker_number", "label": "求職者会員番号" },
+        // { "name": "jobseeker_name", "label": "求職者氏名" },
+        { "name": "jobseeker", "label": " 求職者 " },
+        { "name": "job_apply_status", "label": "ステータス" },
+        { "name": "", "label": " " },
+    ],
+    "titles": [      
+        {"label":"求人タイトル(管理番号)"}
+    ],
+}

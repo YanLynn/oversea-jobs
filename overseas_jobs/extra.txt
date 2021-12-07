@@ -1,0 +1,25 @@
+{
+    path: '/',
+    name: 'Home',
+    component: Home,
+    meta: {
+      title: 'Home Page - Example App',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'The home page of our example app.'
+        },
+        {
+          property: 'og:description',
+          content: 'The home page of our example app.'
+        }
+      ]
+    }
+  },
+
+  https://www.digitalocean.com/community/tutorials/vuejs-vue-router-modify-head
+
+  https://www.digitalocean.com/community/tutorials/vuejs-vue-meta
+
+  Excel for SEO
+  https://docs.google.com/spreadsheets/d/1IoZm062Q5LRX9pU2CfrzyqeaVcmhecWjL2wctxnaQWE/edit#gid=0

@@ -1,0 +1,14 @@
+$colors:( 
+primary: #0062ff, primary-light: #4772bf, primary-lighter: #f2f7ff, 
+secondary: #86a4ac, primary-bg:#eaeaea, 
+primary-jobseeker:#6085a3, primary-jobseeker-light:#b0bec5, primary-jobseeker-ligher:#fff, secondary-jobseeker:#fff, 
+primary-recruiter:#00a195, primary-recruiter-light:#00a195, 
+placeholder: #a1a1a1, tablecolor:#8eacb2, bordercolor:#b5b5b5,text-color:#666666,
+sidebar:#dae1ec, 
+deletecolor:#ef8b1e, cancelcolor:#919191,declinecolor:#c0a8bc,informationcolor:#00a195,startcolor:#39ad4a);
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+}
+
+
+ 

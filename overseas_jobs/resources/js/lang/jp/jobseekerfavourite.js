@@ -1,0 +1,17 @@
+export default {
+    favourite_job: "お気に入り求人一覧",
+    recent_job: "最近見た求人",
+    recommended_job: "おすすめの求人",
+    job_detail: "求人詳細", 
+    // job_detail: "詳細情報", 
+    remove: "削除",
+    already_favourite: "お気に入り",
+    add_favourite: "お気に入りへ",
+    no_exist_favourite_job: "お気に入りのジョブリストは存在しません",
+    no_extist_popular_job:"最近見た求人はありません",
+    no_exist_recommended_job: "現在おすすめの求人はありません",
+    remove_favourite: "削除",
+    add_favourite_success: "お気に入りリストに追加しました",
+    remove_favourite_confirm: "本当にお気に入りから削除しますか",
+    remove_favourite_success: "正常に削除",
+}

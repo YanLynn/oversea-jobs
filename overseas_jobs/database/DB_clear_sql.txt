@@ -1,0 +1,60 @@
+DELETE FROM `chat_messages`
+ALTER TABLE chat_messages AUTO_INCREMENT = 1;
+
+DELETE FROM `chat_message_receivers`
+ALTER TABLE chat_message_receivers AUTO_INCREMENT = 1;
+
+DELETE FROM `desired_industries`
+ALTER TABLE desired_industries AUTO_INCREMENT = 1;
+
+DELETE FROM `desired_occupations`
+ALTER TABLE desired_occupations AUTO_INCREMENT = 1;
+
+DELETE FROM `education_histories`
+ALTER TABLE education_histories AUTO_INCREMENT = 1;
+
+DELETE FROM `education_overseas`
+ALTER TABLE education_overseas AUTO_INCREMENT = 1;
+
+DELETE FROM `experience_histories`
+ALTER TABLE experience_histories AUTO_INCREMENT = 1;
+
+DELETE FROM `experience_overseas`
+ALTER TABLE experience_overseas AUTO_INCREMENT = 1;
+
+DELETE FROM `industry_histories`
+ALTER TABLE industry_histories AUTO_INCREMENT = 1;
+
+DELETE FROM `jobs`
+ALTER TABLE jobs AUTO_INCREMENT = 1;
+
+DELETE FROM `jobseekers`
+ALTER TABLE jobseekers AUTO_INCREMENT = 1;
+
+DELETE FROM `jobseeker_languages`
+ALTER TABLE jobseeker_languages AUTO_INCREMENT = 1;
+
+DELETE FROM `job_applies`
+ALTER TABLE job_applies AUTO_INCREMENT = 1;
+
+DELETE FROM `payment_transactions`
+ALTER TABLE payment_transactions AUTO_INCREMENT = 1;
+
+DELETE FROM `recruiters`
+ALTER TABLE recruiters AUTO_INCREMENT = 1;
+
+DELETE FROM `scouts`
+ALTER TABLE scouts AUTO_INCREMENT = 1;
+
+DELETE FROM `search_histories`
+ALTER TABLE search_histories AUTO_INCREMENT = 1;
+
+DELETE FROM `uploaded_files`
+ALTER TABLE uploaded_files AUTO_INCREMENT = 1;
+
+DELETE FROM `users` WHERE role_id != 1
+ALTER TABLE users AUTO_INCREMENT = 2;
+
+DELETE FROM `taxes` WHERE id != 1;
+ALTER TABLE taxes AUTO_INCREMENT = 2;
+UPDATE taxes set current = 1 where id = 1;
